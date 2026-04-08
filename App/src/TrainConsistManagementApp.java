@@ -18,10 +18,6 @@ public class TrainConsistManagementApp {
         System.out.println(trainConsist);
         trainConsist.remove(0);
         trainConsist.remove(trainConsist.size() - 1);
-
-        // Display unique bogies
-        System.out.println("Unique Bogie IDs:");
-        System.out.println(bogies);
         System.out.println("\nAfter Removing First and Last Bogie:");
         System.out.println(trainConsist);
         System.out.println("\nFinal Ordered Train Consist:");
